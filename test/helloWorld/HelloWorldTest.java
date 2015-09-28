@@ -19,7 +19,7 @@ public class HelloWorldTest {
 	@Test
 	public void testIncrementarTiempo(){
 	for(i=0 ; i < 61 ; i++){
-		cronometro.incrementarTiempo()
+		cronometro.incrementarTiempo();
 	}
 	assertEquals(0,cronometro.getSegundos() );
 	assertEquals(1,cronometro.getMinutos() );
