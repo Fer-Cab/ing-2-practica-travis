@@ -11,6 +11,7 @@ public class HelloWorldTest {
 	HelloWorld cronometro = new HelloWorld ();
 	@Test
 	public void testreiniciar(){
-	assertEquals(cronometro.getSegundos(), cronometro.reiniciar());
+		cronometro.reiniciar();
+	assertEquals(0,cronometro.getSegundos() );
 	}
 }
