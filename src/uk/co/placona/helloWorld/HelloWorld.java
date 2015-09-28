@@ -27,6 +27,12 @@ public String  mostrarTiempo(){
 	
 }
 
+public int getSegundos(){
+	return segundos;
+}
 
+public int getMinutos(){
+	return minutos;
+}
 
 }
