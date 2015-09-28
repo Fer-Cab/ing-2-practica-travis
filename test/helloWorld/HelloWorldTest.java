@@ -18,7 +18,7 @@ public class HelloWorldTest {
 	
 	@Test
 	public void testIncrementarTiempo(){
-	for(i=0 ; i < 61 ; i++){
+	for(int i=0 ; i < 61 ; i++){
 		cronometro.incrementarTiempo();
 	}
 	assertEquals(0,cronometro.getSegundos() );
@@ -28,7 +28,7 @@ public class HelloWorldTest {
 	@Test
 	public void testMostrarTiempo(){
 	
-	assertEquals("minutos = 1 segundos = 0",cronometro.mostrarTiempo);
+	assertEquals("minutos = 1 segundos = 0",cronometro.mostrarTiempo());
 	}
 	
 
