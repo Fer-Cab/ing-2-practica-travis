@@ -28,7 +28,7 @@ public class CronometroTest {
 	@Test
 	public void testMostrarTiempo(){
 	cronometro.incrementarTiempo();
-	assertEquals("minutos = 0 segundos = 1",cronometro.mostrarTiempo());
+	assertEquals("0 minutos 1 segundos",cronometro.mostrarTiempo());
 	}
 	
 
