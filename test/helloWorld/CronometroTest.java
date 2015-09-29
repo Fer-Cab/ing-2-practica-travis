@@ -18,7 +18,7 @@ public class CronometroTest {
 	
 	@Test
 	public void testIncrementarTiempo(){
-	for(int i=0 ; i < 61 ; i++){
+	for(int i=0 ; i < 60 ; i++){
 		cronometro.incrementarTiempo();
 	}
 	assertEquals(0,cronometro.getSegundos() );
