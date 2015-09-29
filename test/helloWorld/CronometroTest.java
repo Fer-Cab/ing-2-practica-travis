@@ -4,11 +4,11 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import uk.co.placona.helloWorld.HelloWorld;
+import uk.co.placona.helloWorld.Cronometro;
 
-public class HelloWorldTest {
+public class CronometroTest {
 	
-	HelloWorld cronometro = new HelloWorld ();
+	Cronometro cronometro = new Cronometro ();
 	@Test
 	public void testReiniciar(){
 		cronometro.reiniciar();
