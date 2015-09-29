@@ -17,7 +17,7 @@ public class CronometroTest {
 	}
 	
 	@Test
-	public void testIncrementarTiempo(){
+	public void testIncrementarTiempo2(){
 	for(int i=0 ; i < 61 ; i++){
 		cronometro.incrementarTiempo();
 	}
