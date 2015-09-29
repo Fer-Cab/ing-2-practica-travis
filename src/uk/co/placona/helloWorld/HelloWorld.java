@@ -1,6 +1,6 @@
 package uk.co.placona.helloWorld;
 
-public class HelloWorld {
+public class Cronometro {
 
 //Cada cronometro debe almacenar 2 variables internas. Una para segundos y otra para minutos.
 //Cuando se superan los 60 segundos, se debe incrementar en 1 la cantidad de minutos transcurridos
