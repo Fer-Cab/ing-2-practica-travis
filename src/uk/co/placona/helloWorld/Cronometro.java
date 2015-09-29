@@ -13,7 +13,7 @@ public void reiniciar(){
 
 // IncrementarTiempo (que avanza el cronometro en 1 segundo)
 public void incrementarTiempo(){
-	if (segundos == 60 ) 
+	if (segundos == 59 ) 
 		{
 			segundos = 0;
 			minutos += 1;
