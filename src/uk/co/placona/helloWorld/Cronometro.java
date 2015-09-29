@@ -23,7 +23,7 @@ public void incrementarTiempo(){
 
 // MostrarTiempo (que muestra el tiempo que pasó en minutos y segundos: Ejemplo 5 minutos, 3 segundos)
 public String  mostrarTiempo(){
-	return "minutos = " + minutos+ " segundos = "+ segundos;
+	return  minutos+ " minutos " + segundos+" segundos";
 	
 }
 
