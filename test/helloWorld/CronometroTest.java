@@ -31,6 +31,13 @@ public class CronometroTest {
 	assertEquals("0 minutos 1 segundos",cronometro.mostrarTiempo());
 	}
 	
+	@Test
+	public void testMostrarTiempo(){
+	for(int i=0 ; i < 5000 ; i++){
+		cronometro.incrementarTiempo();
+	}
+	assertEquals("83 minutos 33 segundos",cronometro.mostrarTiempo());
+	}
 
 	
 }
